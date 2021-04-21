@@ -1,0 +1,50 @@
+jekyll log of errors
+
+
+----------
+2021/04/02 - New jekyll site installed in /usr/local/lib/ruby/gems/3.0.0/doc/rouge-3.26.0/ri/Rouge/Themes/Github/lePetitProf. 
+Arnauds-MacBook-Air:Github arnaudzimmern$ cd lePetitProf/
+Arnauds-MacBook-Air:lePetitProf arnaudzimmern$ bundle exec jekyll serve --watch
+Configuration file: /usr/local/lib/ruby/gems/3.0.0/doc/rouge-3.26.0/ri/Rouge/Themes/Github/lePetitProf/_config.yml
+            Source: /usr/local/lib/ruby/gems/3.0.0/doc/rouge-3.26.0/ri/Rouge/Themes/Github/lePetitProf
+       Destination: /usr/local/lib/ruby/gems/3.0.0/doc/rouge-3.26.0/ri/Rouge/Themes/Github/lePetitProf/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 1.701 seconds.
+ Auto-regeneration: enabled for '/usr/local/lib/ruby/gems/3.0.0/doc/rouge-3.26.0/ri/Rouge/Themes/Github/lePetitProf'
+                    ------------------------------------------------
+      Jekyll 4.2.0   Please append `--trace` to the `serve` command 
+                     for any additional information or backtrace. 
+                    ------------------------------------------------
+/Users/arnaudzimmern/.rvm/gems/ruby-3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/serve/servlet.rb:3:in `require': cannot load such file -- webrick (LoadError)
+
+First Solution: "bundle add webrick" --- it totally worked!
+
+This happens because webrick is no longer a bundled gem in Ruby 3.0. From https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/:
+
+The following libraries are no longer bundled gems or standard libraries. Install the corresponding gems to use these features.
+
+sdbm
+webrick
+net-telnet
+xmlrpc
+Adding gem "webrick" to my Gemfile solves the problem, but Jekyll should include it in its gemspec
+
+
+
+----------------
+2021/03/30 - "jekyll command not found" 
+Mark Suhovecky got me to see that I had several versions of ssl installed through brew (1.1 and open) 
+The brew install jekyll  expression wasn’t going to the ssl that jekyll needed (openssl). 
+So I used vscode to open .bash_profile (which I didn’t know was a thing);
+ used an export cmd (which I didn’t know was a thing) with PKG_CONFIG_PATH (which I had never seen before)
+to get it to the appropriate path. 
+We saved the file, closed terminal, and lo! 
+Mark said he’s had to do similar things with other packages that throw command not found errors, so I reckon this is a frequent occurence.
+
+
+
+
+
+

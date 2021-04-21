@@ -3,7 +3,7 @@ layout: page
 title: Harriot's Physic 
 permalink: /harriot_physic/
 ---
-Thomas Harriot (1560-1621)
+##Thomas Harriot (1560-1621)
 
  In *Thomas Harriot's Physic* I'm bringing to light the famous mathematician's medical activities and exploring why he so readily adopted and promoted tobacco from the New World to the Old.
 

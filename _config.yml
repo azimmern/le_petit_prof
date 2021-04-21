@@ -20,7 +20,7 @@
 
 title: Le Petit Prof
 email: azimmern@nd.edu
-description: Les grandes personnes ne comprennent jamais rien toutes seules, et c'est fatigant, pour les enfants, de toujours et toujours leur donner des explications.
+description: This site was made using Jekyll and GitHub Pages
 baseurl: "/lepetitprof" 
 url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb

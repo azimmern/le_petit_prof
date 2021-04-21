@@ -8,7 +8,7 @@ permalink: /harvey_print_reception/
 
 William Harvey's little book *De Motu Cordis* (1628) announced a new age in European, indeed in global medicine. The heart pumps blood around the body, and the blood circulates. But it took time and vast print networks to make Harvey's discovery a widely agreed-upon fact.
 
-The map presented here (with other data visualizations below) is designed to help researchers see the breadth of Harvey's reception and grasp the international, intercultural, multi-media, and multi-lingual paradigm shift it really was. It attempts to map all print responses to *De Motu Cordis* from 1628 to 1750, including helpful metadata about each textual witness such as variations between the date attributed and the date published, as well as the names of printers and publishers (when available).
+The map here (with other data visualizations below) is designed to help researchers see the breadth of Harvey's reception and grasp the international, intercultural, multi-media, and multi-lingual paradigm shift it really was. It attempts to map all print responses to *De Motu Cordis* from 1628 to 1750, including helpful metadata about each textual witness such as variations between the date attributed and the date published, as well as the names of printers and publishers (when available).
 
 As the 2028 quatercentenary of *De Motu Cordis* approaches, it's important to look back on this little book and ask what it did for global medicine as well as for cultural narratives about bodies, selves, and medical progress.
 

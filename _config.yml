@@ -21,13 +21,13 @@
 title: Le Petit Prof
 email: azimmern@nd.edu
 description: This site was designed with Jekyll and GitHub Pages.
-baseurl: "/lepetitprof" 
+baseurl: "/le_petit_prof" 
 url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  lePetitProf
 
 # Build settings
-theme: minima
+theme: immaculate
 plugins:
   - jekyll-feed
 
